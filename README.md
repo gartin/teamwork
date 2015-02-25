@@ -1,0 +1,1 @@
+This is a repository for the purposes of the team project for Web Fundamentals.
