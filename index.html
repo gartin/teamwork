@@ -9,14 +9,26 @@
 <body>
         <header>
             <div class="wrapper">
+                <img src="ressources/img/fun-logo.png" alt=""/>
                 <nav>
                     <ul>
-                        <li><a href="#">ВИЦОВЕ</a></li>
-                        <li><a href="#">ГИФЧЕТА</a></li>
-                        <li><a href="#">СНИМКИ</a></li>
+                        <li class="active home-nav" data-menu="home">НАЧАЛО</li>
+                        <li class="jokes-nav">ВИЦОВЕ</li>
+                        <li class="gifs-nav">ГИФЧЕТА</li>
+                        <li class="pics-nav">СНИМКИ</li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <section>
+            <div class="wrapper">
+                <article class="home"></article>
+                <article class="jokes"></article>
+                <article class="gifs"></article>
+                <article class="pics"></article>
+            </div>
+        </section>
+        <script src="script/jquery-1.11.2.min.js"></script>
+        <script src="script/app.js"></script>
 </body>
 </html>
