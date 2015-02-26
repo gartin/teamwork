@@ -23,6 +23,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/ressources\/img\/fun-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17189,
+		"inputAbbreviatedPath": "\/ressources\/img\/fun-logo.png",
+		"outputAbbreviatedPath": "\/ressources\/img\/fun-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/ressources\/img\/hat.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -30,6 +41,17 @@
 		"initialSize": 45334,
 		"inputAbbreviatedPath": "\/ressources\/img\/hat.png",
 		"outputAbbreviatedPath": "\/ressources\/img\/hat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/ressources\/img\/java.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117103,
+		"inputAbbreviatedPath": "\/ressources\/img\/java.jpg",
+		"outputAbbreviatedPath": "\/ressources\/img\/java.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
