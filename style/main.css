@@ -68,7 +68,7 @@ nav a:hover {
 
 nav a:active {
     color: rgba(0,0,0,0.5);
-    text-shadow: 0 0 rgba(,0,0,1);
+    text-shadow: 0 0 rgba(0,0,1);
 }
 
 .active {
