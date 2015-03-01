@@ -17,9 +17,9 @@ GENERAL RULES
     font-family: 'DaysRegular';
     src: url('../ressources/fonts/Days-webfont.eot');
     src: url('../ressources/fonts/Days-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../ressources/fonts/Days-webfont.woff') format('woff'),
-    url('../ressources/fonts/Days-webfont.ttf') format('truetype'),
-    url('../ressources/fonts/Days-webfont.svg#daysregular') format('svg');
+        url('../ressources/fonts/Days-webfont.woff') format('woff'),
+        url('../ressources/fonts/Days-webfont.ttf') format('truetype'),
+        url('../ressources/fonts/Days-webfont.svg#daysregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -121,4 +121,26 @@ article {
 
 #gifs img {
     width: 600px;
+}
+
+.scrollToTop{
+    width:100px; 
+    height:100px;
+    padding:10px; 
+    text-align:center; 
+    /*background: whiteSmoke;*/
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:500px;
+    right:40px;
+    display:none;
+    background: url('../ressources/img/arrow-up.png') no-repeat 0px 20px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+
+}   
+.scrollToTop:hover{
+    text-decoration:none;
 }
