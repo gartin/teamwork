@@ -123,7 +123,19 @@ article {
     width: 600px;
 }
 
+.fixed{
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99; 
+    background-color: #EFECEF;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.4);
+   
+}
 .scrollToTop{
+    border: 1px solid transparent;
+    z-index: 1;
     width:100px; 
     height:100px;
     padding:10px; 
@@ -143,4 +155,81 @@ article {
 }   
 .scrollToTop:hover{
     text-decoration:none;
+}
+
+/* ------ footer --------- */
+
+footer {
+    margin-top: 20px;
+    background-color: #DDD;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.4);
+
+}
+footer p {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 32px;
+}
+
+#mail, #skype, #twitter, #facebook {
+    display: inline-block;
+    margin: 1% 8%;
+}
+
+#mail  {
+    width: 78px;
+    height: 78px;
+    background: url('../ressources/img/mail.png') no-repeat left;
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 50px;
+}
+#mail:hover {
+    background: url('../ressources/img/mail.png') no-repeat right;
+    box-shadow: 10px 10px 5px #888888; 
+}
+
+#skype {
+    width: 78px;
+    height: 78px;
+    background: url('../ressources/img/skype.png') no-repeat left;
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 50px;
+}
+#skype:hover {
+    background: url('../ressources/img/skype.png') no-repeat right; 
+    box-shadow: 10px 10px 5px #888888;  
+}
+
+#twitter {
+    width: 78px;
+    height: 78px;
+    background: url('../ressources/img/twitter.png') no-repeat left;
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 50px;
+}
+#twitter:hover {
+    background: url('../ressources/img/twitter.png') no-repeat right;
+    box-shadow: 10px 10px 5px #888888; 
+}
+
+#facebook {
+    width: 78px;
+    height:78px;
+    background: url('../ressources/img/facebook.png') no-repeat left;
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 50px;
+}
+#facebook:hover {
+    background: url('../ressources/img/facebook.png') no-repeat right; 
+    box-shadow: 10px 10px 5px #888888; 
+}
+
+#copyrights {
+    font-size: 12px;
+    color: #9f9c9c;
+}
+
+#copyrights img {
+    width: 30px;
 }
