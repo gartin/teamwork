@@ -123,8 +123,18 @@ article {
     width: 600px;
 }
 
+.fixed{
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99; 
+    background-color: #EFECEF;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.4);
+   
+}
 .scrollToTop{
-    border: 1px solid rgba(255, 0, 0, .1);
+    border: 1px solid transparent;
     z-index: 1;
     width:100px; 
     height:100px;
@@ -174,10 +184,10 @@ footer p {
     box-shadow: 10px 10px 5px #ccc;
     border-radius: 50px;
 }
-    #mail:hover {
+#mail:hover {
     background: url('../ressources/img/mail.png') no-repeat right;
     box-shadow: 10px 10px 5px #888888; 
-    }
+}
 
 #skype {
     width: 78px;
@@ -186,10 +196,10 @@ footer p {
     box-shadow: 10px 10px 5px #ccc;
     border-radius: 50px;
 }
-    #skype:hover {
+#skype:hover {
     background: url('../ressources/img/skype.png') no-repeat right; 
     box-shadow: 10px 10px 5px #888888;  
-    }
+}
 
 #twitter {
     width: 78px;
@@ -198,10 +208,10 @@ footer p {
     box-shadow: 10px 10px 5px #ccc;
     border-radius: 50px;
 }
-    #twitter:hover {
+#twitter:hover {
     background: url('../ressources/img/twitter.png') no-repeat right;
     box-shadow: 10px 10px 5px #888888; 
-    }
+}
 
 #facebook {
     width: 78px;
@@ -210,16 +220,16 @@ footer p {
     box-shadow: 10px 10px 5px #ccc;
     border-radius: 50px;
 }
-    #facebook:hover {
+#facebook:hover {
     background: url('../ressources/img/facebook.png') no-repeat right; 
     box-shadow: 10px 10px 5px #888888; 
-    }
-
-#copyrights {
-font-size: 12px;
-color: #9f9c9c;
 }
 
-    #copyrights img {
-        width: 30px;
-    }
+#copyrights {
+    font-size: 12px;
+    color: #9f9c9c;
+}
+
+#copyrights img {
+    width: 30px;
+}

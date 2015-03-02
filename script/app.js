@@ -1,6 +1,5 @@
 $(document).ready(function ()
 {
-
     $('li').on('click', function ()
     {
         $('li').each(function ()
@@ -46,6 +45,18 @@ $(document).ready(function ()
     $('.scrollToTop').click(function () {
         $('html, body').animate({scrollTop: 0}, 800);
         return false;
+    });
+
+    //Keep navigation bar fixed after scrolling the webpage
+    var navpos = $('#mainnav').offset();
+    var navpos = $('#mainnav').offset();
+    $(window).bind('scroll', function () {
+        if ($(window).scrollTop() > navpos.top) {
+            $('#mainnav').addClass('fixed');
+        }
+        else {
+            $('#mainnav').removeClass('fixed');
+        }
     });
 
 });
