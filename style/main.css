@@ -110,7 +110,7 @@ article {
     padding: 10px;
 }
 
-#gifs h4 {
+#gifs,#pics h4 {
     font-size: 32px;
     padding: 20px;
 }
@@ -118,9 +118,13 @@ article {
 #gifs section {
     margin-top: 80px;
 }
-
+//made images and gifs responsive
 #gifs img {
-    width: 600px;
+    width:60%;
+}
+
+#pics img{
+    width:60%;
 }
 
 /* ------ FIxed navbar --------- */
@@ -133,7 +137,7 @@ article {
     z-index: 99; 
     background-color: #EFECEF;
     box-shadow: 0px 0px 50px rgba(0,0,0,0.4);
-   
+
 }
 
 
