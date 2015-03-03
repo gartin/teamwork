@@ -49,7 +49,6 @@ $(document).ready(function ()
 
     //Keep navigation bar fixed after scrolling the webpage
     var navpos = $('#mainnav').offset();
-    var navpos = $('#mainnav').offset();
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > navpos.top) {
             $('#mainnav').addClass('fixed');

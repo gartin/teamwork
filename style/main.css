@@ -123,6 +123,8 @@ article {
     width: 600px;
 }
 
+/* ------ FIxed navbar --------- */
+
 .fixed{
     width: 100%;
     left: 0;
@@ -133,6 +135,9 @@ article {
     box-shadow: 0px 0px 50px rgba(0,0,0,0.4);
    
 }
+
+
+/* ------ Scroll to top button --------- */
 .scrollToTop{
     border: 1px solid transparent;
     z-index: 1;
