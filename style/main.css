@@ -123,10 +123,12 @@ article {
 /*made images and gifs responsive*/
 #gifs img {
     width:60%;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.8);
 }
 
 #pics img{
     width:60%;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.8);
 }
 
 /* ------ FIxed navbar --------- */
@@ -245,6 +247,9 @@ footer p {
 
 
 
+
+
+
 /* Responsive design  */
 
 
@@ -252,21 +257,21 @@ footer p {
 
 @media screen and (max-width: 900px) {
 
-    nav li {
+        nav li {
         font-size: 1.5em;
-    }
+        }
 
-    header img {
+        header img {
         width: 250px;
-    }
+        }
 
-    h4 {
-        font-size: 0.8em;
-    }
+        h4 {
+            font-size: 0.8em;
+        }
 
-    footer p {
+        footer p {
         font-size: 26px;
-    }
+        }
 
 
 
@@ -275,75 +280,97 @@ footer p {
 
 @media screen and (max-width: 768px) {
 
-    nav li {
+        nav li {
         font-size: 1.3em;
-    }
+        }
 
-    header img {
+        header img {
         width: 220px;
-    }
+        }
 
-    h4 {
-        font-size: 0.6em;
-    }
+        h4 {
+            font-size: 0.6em;
+        }
 
-    footer p {
+         footer p {
         font-size: 20px;
-    }
+        }
 
 
-    #mail, #skype, #twitter, #facebook {
+        #mail, #skype, #twitter, #facebook {
         margin: 1% 5%;
-    }
+        }
 
 }
 
 @media screen and (max-width: 640px) {
 
-    nav li {
+        nav li {
         font-size: 1em;
-    }
+        }
 
-    header img {
+         header img {
         width: 190px;
-    }
+        }
 
-    h4 {
-        font-size: 0.6em;
-    }
-    footer p {
+        h4 {
+            font-size: 0.6em;
+        }
+         footer p {
         font-size: 14px;
-    }
+        }
 
-    #mail, #skype, #twitter, #facebook {
+        #mail, #skype, #twitter, #facebook {
         margin: 0 auto;
-    }
+        }
+
+        #social {
+            margin-left: 20%;
+        }
 }
 
 @media screen and (max-width: 480px) {
 
-    .scrollToTop{
-        width:50px; 
-        height:100px;
-    }   
+        nav li {
+            width: 100%;
+            font-size: 2em;
+        }
 
-
-
-    nav li {
-        width: 100%;
-        font-size: 2em;
-    }
-
-    header img {
+        header img {
         display: none;
-    }
+        }
 
-    h4 {
-        font-size: 0.6em;
-    }
+        h4 {
+            font-size: 0.6em;
+        }
 
-    #gifs img {
-        max-width:100%;
-        margin: 0;
-    }
+        #gifs img {
+          max-width:100%;
+          margin: 0;
+        }
+}
+
+
+
+
+/* last changes */
+
+#home > h1 {
+    max-width: 80%;
+    font-size: 28px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-shadow: 0px 0px 30px rgba(0, 61, 36, 1);
+}
+#home > ul {
+    margin-top: 20px;
+}
+#home > ul > li  {
+    display: inline-block;
+}
+#home > ul img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 40%;
 }
